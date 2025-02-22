@@ -4,5 +4,5 @@ version = "0.0.0"
 edition = "2024"
 
 [dependencies]
-display_text_interface = { path = "../interface/" }
-common = { path = "../../../../common/" }
+display_text_interface = { git = "https://codeberg.org/xsomex/OS-modules_display-text_interface.git" }
+common = { git = "https://codeberg.org/xsomex/OS-common.git" }
